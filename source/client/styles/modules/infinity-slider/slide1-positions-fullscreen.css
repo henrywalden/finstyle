@@ -1,0 +1,250 @@
+.iS-Bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+.iS-Image {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: auto;
+	z-index: 0;
+}
+
+
+/******************************** SLIDE 1 ********************************/
+.Q-logo {
+	height: 150px;
+	width: auto;
+}
+
+.iS-Item {
+    background-color: rgba(0,0,0,.15);
+}
+
+.slide1-text1 {
+	font-family: 'helvetica neue', Helvetica, arial;
+	position: absolute;
+	z-index: 1;
+	margin-top: 300px;
+	font-weight: 400;
+	padding: 20px 50px;
+	line-height: 100%;
+	text-align: center;
+    color: #ffffff;
+}
+
+@media screen and (max-width: 769px) {
+    .slide1-text1 {
+        padding: 20px 0;
+    }
+}
+@media screen and (max-height: 700px) {
+    .slide1-text1 {
+        margin: 150px auto auto 0;
+    }
+}
+
+.back_content p {
+    margin-top: 50px;
+}
+
+.back_content h4 {
+    margin-top: 30px;
+}
+
+.fa-ellipsis-h
+.fa-ellipsis-h:visited
+.fa-ellipsis-h:hover
+.fa-ellipsis-h:active {
+    text-decoration: none;
+    color: #3eabc2;
+}
+
+i.fa.fa-ellipsis-h.ellipsis {
+    font-size: 25px;
+    color: #ffffff;
+}
+i.fa.fa-ellipsis-h.ellipsis:hover {
+    color: #3eabc2;
+}
+
+@media (min-width: 0px) and (max-width: 499px) {
+	.slide1-text1 {
+		left: 0%;		
+		width: 100%;
+		padding-left: 0px;
+		padding-right: 0px;
+		font-size: 25px;
+        background-color: rgba(0,0,0,.3);
+        height: auto;
+        margin: 180px auto auto 0px;
+	}
+
+    .back_content h4 {
+        font-size: 16px;
+    }
+    .hideme {
+        display: none
+    }
+    .slide1-text1 p {
+        margin: 10px;
+        font-size: 12px;
+        line-height: 1.5em;
+        color: #fff;
+    }
+
+    .slide1-text1 h4 {
+        margin-top: 30px;
+    }
+
+    /*hover pointers*/
+    .slide1-text1 p:hover {
+        cursor: pointer;
+    }
+
+    .parallax1_padding h3 {
+        cursor:pointer;
+    }
+
+
+    #brad-hover p:hover {
+        cursor: pointer;
+    }
+
+
+
+}
+@media (min-width: 500px) and (max-width: 767px){
+	.slide1-text1 {
+		font-size: 50px;
+        background-color: rgba(0,0,0,.3);
+        height: auto;
+        margin: 250px 0px;
+	}
+    .back_content h4 {
+        font-size: 16px;
+    }
+    .hideme {
+        display: none
+    }
+    .slide1-text1 p {
+        margin: 50px 60px 0 60px;
+        line-height: 1.2em;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .slide1-text1 h4 {
+        margin-top: 30px;
+    }
+
+    /*hover pointers*/
+    .slide1-text1 p:hover {
+        cursor: pointer;
+    }
+    .parallax1_padding h3 {
+        cursor:pointer;
+    }
+
+    #brad-hover p:hover {
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width: 768px){
+    .slide1-text1 {
+        /*margin-top: -70px;*/
+        /*margin-left: -400px;*/
+        font-size: 55px;
+        background-color: rgba(0,0,0,.26);
+        height: 350px;
+        margin: 300px auto auto 0px;
+    }
+    .slide1-text1 p {
+        margin: 50px 60px 0 60px;
+
+        line-height: 1.2em;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .ellipsis {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .slide1-text1 {
+        margin: 150px auto auto 0px;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .slide1-text1 {
+        height: 350px;
+        margin: 200px auto auto 0px;
+    }
+}
+
+
+@media (min-width: 1100px){
+    .slide1-text1 {
+        /*margin-top: -70px;*/
+        /*margin-left: -400px;*/
+        font-size: 55px;
+        background-color: rgba(0,0,0,.26);
+        margin: 300px auto auto 0px;
+    }
+    .slide1-text1 p {
+        margin: 50px 100px 0 100px;
+        line-height: 1.32em;
+        font-size: 16px;
+        color: #fff;
+    }
+
+    .slide1-text1 h4 {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .slide1-text1 {
+        font-size: 65px;
+        height: 360px;
+    }
+    .slide1-text1 p {
+        margin: 50px 200px 0 200px;
+        line-height: 1.4em;
+        font-size: 18px;
+        color: #fff;
+    }
+    .slide1-text1 h4 {
+        margin-top: 30px;
+    }
+
+
+}
+@media (min-width: 1792px) {
+	.slide1-text1 {
+        height: 370px;
+		font-size: 70px;
+	}
+    .slide1-text1 p {
+        margin: 50px 300px 0 300px;
+        line-height: 1.5em;
+        font-size: 20px;
+        color: #fff;
+    }
+    .slide1-text1 h4 {
+        margin-top: 50px;
+    }
+}
+
+.iS-ImageAutofit { margin-left: 0 !important}
