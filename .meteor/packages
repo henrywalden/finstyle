@@ -8,3 +8,5 @@ meteor-platform
 insecure
 orionjs:core
 orionjs:styles
+less
+nemo64:bootstrap
