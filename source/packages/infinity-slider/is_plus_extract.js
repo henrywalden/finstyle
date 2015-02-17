@@ -44,13 +44,8 @@ fullScreen = function(thisItems) {
 	});
 };
 
-
-var center = $('.epeoCenter');
-var middle = $('.epeoMiddle');
-var fullscreen = $('.epeoFullscreen');
-fullScreen(fullscreen);
-$(window).bind('load resize',function(){
-	fullScreen(fullscreen);
-	//autoCenter(center);
-	//autoMiddle(middle);
-});
+//var efullscreen = $('.epeoFullscreen');
+//fullScreen(fullscreen);
+//$(window).bind('load resize',function(){
+//	fullScreen(fullscreen);
+//});

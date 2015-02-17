@@ -6,7 +6,25 @@ jQuery Infinty Slider v.1.0
 ************************/
 infinitySlider = function() {
 	/*Checking Declaration*/
-
+	var infinitySliderId = 'slide01',
+		infinitySliderCommandsClass = 'iS-Commands',
+		infinitySliderPreviousButtonClass = 'iS-Previous',
+		infinitySliderNextButtonClass = 'iS-Next',
+		infinitySliderDotsClass = 'iS-Dots',
+		infinitySliderDotClass = 'iS-Dot',
+		infinitySliderDotActiveClass = 'iS-Dotactive',
+		infinitySliderPlayButtonClass = 'iS-Play',
+		infinitySliderPlayButtonActiveClass = 'iS-Playactive',
+		infinitySliderStopButtonClass = 'iS-Stop',
+		infinitySliderStopButtonActiveClass = 'iS-Stopactive',
+		infinitySliderLoopIndicator = 'iS-Loopline',
+		infinitySliderContentClass = 'iS-Content',
+		infinitySliderItemsClass = 'iS-Items',
+		infinitySliderItemClass = 'iS-Item',
+		infinitySliderAutoStartLoop = true,
+		infinitySliderKeyboardNavigation = true,
+		infinitySliderTouchNavigation = 'desktop',
+		infinitySliderStarterSlide = 1;
 
 	var error = '';
 	var errorCounter = 0;

@@ -1,25 +1,5 @@
 Template.sliderTest.rendered = function() {
-    infinitySlider(
-        infinitySliderId = 'slide01',
-        infinitySliderCommandsClass = 'iS-Commands',
-        infinitySliderPreviousButtonClass = 'iS-Previous',
-        infinitySliderNextButtonClass = 'iS-Next',
-        infinitySliderDotsClass = 'iS-Dots',
-        infinitySliderDotClass = 'iS-Dot',
-        infinitySliderDotActiveClass = 'iS-Dotactive',
-        infinitySliderPlayButtonClass = 'iS-Play',
-        infinitySliderPlayButtonActiveClass = 'iS-Playactive',
-        infinitySliderStopButtonClass = 'iS-Stop',
-        infinitySliderStopButtonActiveClass = 'iS-Stopactive',
-        infinitySliderLoopIndicator = 'iS-Loopline',
-        infinitySliderContentClass = 'iS-Content',
-        infinitySliderItemsClass = 'iS-Items',
-        infinitySliderItemClass = 'iS-Item',
-        infinitySliderAutoStartLoop = true,
-        infinitySliderKeyboardNavigation = true,
-        infinitySliderTouchNavigation = 'desktop',
-        infinitySliderStarterSlide = 1
-    );
+    infinitySlider();
 
     if ($(window).width() > 1024) {
         $('.numberRoll').html('0');
@@ -38,12 +18,13 @@ Template.sliderTest.rendered = function() {
         }, 91000);
     });
 
-    var fullscreen = $('.epeoFullscreen');
-    fullScreen(fullscreen);
-    $(window).bind('load resize',function(){
+    //Meteor.setTimeout(function(){
+        var fullscreen = $('.epeoFullscreen');
         fullScreen(fullscreen);
-    });
-
+        $(window).bind('load resize',function(){
+            fullScreen(fullscreen);
+        });
+    //}, 3000);
 
 };
 
