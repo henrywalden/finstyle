@@ -1379,11 +1379,11 @@ var stylestandard = '.iS-Active {z-index: 2!important;}.iS-Notime > .iS-Item, .i
 					var ratioCurrent = currentWidth/currentHeight;
 
 					if(ratioContainer >= ratioCurrent) {
-						current.css({width: 100+'%'});
+						current.css({width: 100+'%', height: 100+'%'});
 						current.css({marginTop: -((current.height()-containerHeight)*currentPositionX)+'px'})						
 					}
 					else {
-						current.css({height: 100+'%'});
+						current.css({height: 100+'%', width: 100+'%'});
 						current.css({marginLeft: -((current.width()-containerWidth)*currentPositionY)+'px'})
 					}
 				});
