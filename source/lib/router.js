@@ -1,13 +1,15 @@
-
-//subscribe on route
-Router.route('/', {
-    name: 'slider.test',
-    subscriptions: function() {
-        orion.subs.subscribe('dictionary');
-    }
+Router.configure({
+    layoutTemplate: 'Layout'
 });
 
 
-function testGlobal1() { console.log('test1')}
+//subscribe on route
+Router.route('/', {
+    name: 'sliderTest',
+    layoutTemplate: 'LayoutSplash'
+    //yieldRegion: {'sliderTest': {to: 'sliderYield'}}
+    //subscriptions: function() {
+    //    orion.subs.subscribe('dictionary');
+    //}
+});
 
-testGlobal2 = function () { console.log('test2')};
